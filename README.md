@@ -11,6 +11,17 @@ This project demonstrates how to build, secure, monitor, and detect attacks in a
 - Implement logging and monitoring
 - Simulate and detect attacks.
 
+## Day 1 Setup
+- Created Resource Group
+
+- Deployed Linux VM
+- Opened SSH to the internet (intentional misconfiguration)
+
+## Initial Security Issue
+- SSH (port 22) is open to 0.0.0.0/0 (public access)
+
+
+  
 ## Architecture
 (To be added)
 
