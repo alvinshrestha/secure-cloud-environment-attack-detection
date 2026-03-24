@@ -1,8 +1,8 @@
-</> Markdown
+
 # Secure Cloud Environment with Attack Detection (Azure)
 
 ## Overview
-This porject demonstrates how to build, secure, monitor, and detect attacks in a cloud environment using Microsoft Azure.
+This project demonstrates how to build, secure, monitor, and detect attacks in a cloud environment using Microsoft Azure.
 
 ## Objectives
 - Deploy a cloud-based VM
