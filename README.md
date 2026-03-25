@@ -50,7 +50,7 @@ Cloud environments often enforce policy constraints. Understanding and adapting 
 
 ## Architecture
 The architecture diagram and technical explanation for the environment are available here:
-- [Architecture Documentation](architecture.md)
+- [Architecture Documentation](Architecture.md)
 
 ## Setup Steps
 (To be added)
