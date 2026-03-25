@@ -17,7 +17,7 @@ The project focuses on identifying misconfigurations, applying security controls
 
 ## Day 1 Setup
 - Created Resource Group
-<img width="1918" height="856" alt="1 1  Resource Group" src="https://github.com/user-attachments/assets/a0fbba0e-c3c7-4067-b5a2-d4e5f53522fe" />
+[Resource Group](./Images/Resource-Group.png)
 
 - Deployed Linux VM
 <img width="1918" height="852" alt="2 3  vm deployment in different region " src="https://github.com/user-attachments/assets/3dd157ff-cb12-44e8-825f-64fb1a85b6d4" />
