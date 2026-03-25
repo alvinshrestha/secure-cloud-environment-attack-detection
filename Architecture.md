@@ -10,7 +10,7 @@ This architecture represents the initial deployment of the Secure Cloud Environm
 - **Network Security Group (NSG)** – Controls inbound and outbound traffic rules
 - **Virtual Network (VNet)** – Provides private network segmentation within Azure
 - **Subnet** – Logical subdivision of the virtual network
-- **Linux Virtual Machine (Ubuntu)** – Main compute resource used for deployment, hardening, monitoring, and attack simulation
+- **Virtual Machine (Ubuntu)** – Main compute resource used for deployment, hardening, monitoring, and attack simulation
 
 ## Initial Traffic Flow
 The initial configuration allows:
