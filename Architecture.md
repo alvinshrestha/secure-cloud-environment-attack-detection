@@ -1,6 +1,7 @@
 # Architecture Diagram
 
-![Architecture Diagram](architecture-diagram.png)
+![Architecture Diagram](Architecture-Diagram<img width="3371" height="1992" alt="Architecture-diagram" src="https://github.com/user-attachments/assets/c68d52b8-5de3-4871-b386-f470a6e2a0dc" />
+)
 
 ## Overview
 This architecture represents the initial deployment of the Secure Cloud Environment with Attack Detection project in Microsoft Azure.
