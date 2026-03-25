@@ -49,7 +49,8 @@ The Azure for Students subscription enforces policies that limit which regions r
 Cloud environments often enforce policy constraints. Understanding and adapting to these restrictions is critical in real-world deployments.
 
 ## Architecture
-(To be added)
+The architecture diagram and technical explanation for the environment are available here:
+- [Architecture Documentation](architecture.md)
 
 ## Setup Steps
 (To be added)
