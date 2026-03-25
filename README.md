@@ -2,7 +2,11 @@
 # Secure Cloud Environment with Attack Detection (Azure)
 
 ## Overview
-This project demonstrates how to build, secure, monitor, and detect attacks in a cloud environment using Microsoft Azure.
+This project demonstrates the design, deployment, and security hardening of a cloud environment in Microsoft Azure, including attack detection and monitoring capabilities. 
+
+The environment was built under Azure subscription constraints, requiring adaptation to policy-enforced region restrictions and resource limitations. These constraints reflect real-world cloud scenarios where engineers must design secure systems within operational boundaries.
+
+The project focuses on identifying misconfigurations, applying security controls, implementing logging and alerting, and simulating attack scenarios to validate detection and response mechanisms.
 
 ## Objectives
 - Deploy a cloud-based VM
@@ -32,12 +36,7 @@ This configuration exposes the VM to potential brute-force attacks and unauthori
 ## Challenges & Resolutions
 
 ### Issue: Azure Deployment Failure due to Region Policy
-## Overview
-This project demonstrates the design, deployment, and security hardening of a cloud environment in Microsoft Azure, including attack detection and monitoring capabilities. 
-
-The environment was built under Azure subscription constraints, requiring adaptation to policy-enforced region restrictions and resource limitations. These constraints reflect real-world cloud scenarios where engineers must design secure systems within operational boundaries.
-
-The project focuses on identifying misconfigurations, applying security controls, implementing logging and alerting, and simulating attack scenarios to validate detection and response mechanisms.
+During initial deployment, resource creation failed because Azure subscription policies restricted the allowed regions.
 
 ### Root Cause
 The Azure for Students subscription enforces policies that limit which regions resources can be deployed in.
