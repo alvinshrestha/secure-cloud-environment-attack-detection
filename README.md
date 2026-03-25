@@ -20,7 +20,7 @@ The project focuses on identifying misconfigurations, applying security controls
 ![Resource Group](./Images/Resource-Group.png)
 
 - Deployed Linux VM
-<img width="1918" height="852" alt="2 3  vm deployment in different region " src="https://github.com/user-attachments/assets/3dd157ff-cb12-44e8-825f-64fb1a85b6d4" />
+![Deployed Linux](./Images/Deployed-Linux.png)
 
 - Configured SSH (port 22) to allow public access (0.0.0.0/0) to simulate a common cloud misconfiguration
 <img width="1916" height="852" alt="2 4  vm nsg" src="https://github.com/user-attachments/assets/a0b2d41e-9f6e-45c3-a083-451ff1c7d463" />
