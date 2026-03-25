@@ -18,15 +18,36 @@ This project demonstrates how to build, secure, monitor, and detect attacks in a
 - Deployed Linux VM
 <img width="1918" height="852" alt="2 3  vm deployment in different region " src="https://github.com/user-attachments/assets/3dd157ff-cb12-44e8-825f-64fb1a85b6d4" />
 
-- Opened SSH to the internet (intentional misconfiguration)
+- Configured SSH (port 22) to allow public access (0.0.0.0/0) to simulate a common cloud misconfiguration
 <img width="1916" height="852" alt="2 4  vm nsg" src="https://github.com/user-attachments/assets/a0b2d41e-9f6e-45c3-a083-451ff1c7d463" />
 
 ## Initial Security Issue
+This configuration exposes the VM to potential brute-force attacks and unauthorized access attempts from the public internet.
 - SSH (port 22) is open to 0.0.0.0/0 (public access)
 
 <img width="1918" height="927" alt="3  Using ssh to connect the vm" src="https://github.com/user-attachments/assets/2313943d-718d-4fe9-bf67-f459684737a2" />
 
   <img width="737" height="512" alt="3  Using putty to connect the vm" src="https://github.com/user-attachments/assets/4f4261e8-f450-41a9-91df-76c0599c4511" />
+
+## Challenges & Resolutions
+
+### Issue: Azure Deployment Failure due to Region Policy
+## Overview
+This project demonstrates the design, deployment, and security hardening of a cloud environment in Microsoft Azure, including attack detection and monitoring capabilities. 
+
+The environment was built under Azure subscription constraints, requiring adaptation to policy-enforced region restrictions and resource limitations. These constraints reflect real-world cloud scenarios where engineers must design secure systems within operational boundaries.
+
+The project focuses on identifying misconfigurations, applying security controls, implementing logging and alerting, and simulating attack scenarios to validate detection and response mechanisms.
+
+### Root Cause
+The Azure for Students subscription enforces policies that limit which regions resources can be deployed in.
+
+### Resolution
+- Switched deployment to an allowed region (e.g., Australia Southeast / East US), in this case I used Asia East
+- Standardized all resources within the permitted region
+
+### Key Learning
+Cloud environments often enforce policy constraints. Understanding and adapting to these restrictions is critical in real-world deployments.
 
 ## Architecture
 (To be added)
