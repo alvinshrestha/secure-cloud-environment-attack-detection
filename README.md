@@ -23,15 +23,12 @@ The project focuses on identifying misconfigurations, applying security controls
 ![Deployed Linux](./Images/Deployed-Linux.png)
 
 - Configured SSH (port 22) to allow public access (0.0.0.0/0) to simulate a common cloud misconfiguration
-<img width="1916" height="852" alt="2 4  vm nsg" src="https://github.com/user-attachments/assets/a0b2d41e-9f6e-45c3-a083-451ff1c7d463" />
+![SSH Missconfiguration](./Images/SSH-Missconfiguration.png)
 
 ## Initial Security Issue
 This configuration exposes the VM to potential brute-force attacks and unauthorized access attempts from the public internet.
 - SSH (port 22) is open to 0.0.0.0/0 (public access)
-
-<img width="1918" height="927" alt="3  Using ssh to connect the vm" src="https://github.com/user-attachments/assets/2313943d-718d-4fe9-bf67-f459684737a2" />
-
-  <img width="737" height="512" alt="3  Using putty to connect the vm" src="https://github.com/user-attachments/assets/4f4261e8-f450-41a9-91df-76c0599c4511" />
+![SSH Login](./Images/SSH-Login.png)
 
 ## Challenges & Resolutions
 
