@@ -53,10 +53,10 @@ The architecture diagram and technical explanation for the environment are avail
 - [Setup Steps](./2.Setup/Setup-steps.md)
 
 ## Security Issues Identified
-(To be added)
+- [Security Issues Identified](./3.Security/1.identified-issues.md)
 
 ## Mitigations Applied
-(To be added)
+- [Security Hardening](./3.Security/2.hardening-setups.md)
 
 ## Detection & Monitoring
 (To be added)
