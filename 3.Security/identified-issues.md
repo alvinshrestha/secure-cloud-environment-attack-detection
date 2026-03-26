@@ -1,4 +1,3 @@
-```md
 # Security Issues Identified
 
 ## 1. Public SSH Exposure
