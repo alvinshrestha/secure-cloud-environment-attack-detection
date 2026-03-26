@@ -50,7 +50,7 @@ The architecture diagram and technical explanation for the environment are avail
 - [Architecture Documentation](/1.Architecture/architecture.md)
 
 ## Setup Steps
-[Setup Steps](./2.Setup/Setup-steps.md)
+- [Setup Steps](./2.Setup/Setup-steps.md)
 
 ## Security Issues Identified
 (To be added)
