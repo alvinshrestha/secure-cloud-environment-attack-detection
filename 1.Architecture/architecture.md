@@ -2,7 +2,7 @@
 
 ## Overview
 This architecture represents the initial deployment of the Secure Cloud Environment with Attack Detection project in Microsoft Azure.
-![Architecture Diagram](./secure-cloud-environment-attack-detection/Images/Architecture-diagram.png)
+![Architecture Diagram](/secure-cloud-environment-attack-detection/Images/Architecture-diagram.png)
 
 ## Components
 - **Internet** – Represents public external access
