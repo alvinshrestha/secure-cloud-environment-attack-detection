@@ -56,7 +56,7 @@ The architecture diagram and technical explanation for the environment are avail
 - [Security Issues Identified](./3.Security/1.identified-issues.md)
 
 ## Mitigations Applied
-- [Security Hardening](./3.Security/2.hardening-setps.md)
+- [Security Hardening](./3.Security/2.hardening-steps.md)
 
 ## Detection & Monitoring
 (To be added)
