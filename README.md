@@ -42,11 +42,6 @@ The Azure for Students subscription enforces policies that limit which regions r
 - Switched deployment to an allowed region (e.g., Australia Southeast / East US), in this case I used Asia East
 - Standardized all resources within the permitted region
 
-
----
-
-# 2) Add this to `README.md` under **Challenges & Resolutions**
-
 ### Issue: SSH Password Login Remained Enabled After Configuration Change
 During hardening, password-based SSH login remained active even after updating the main SSH configuration file.
 
@@ -64,8 +59,6 @@ The main SSH daemon configuration was being overridden by additional configurati
 - Cloud environments often enforce policy constraints. Understanding and adapting to these restrictions is critical in real-world deployments.
 
 - Cloud-hosted Linux systems may use layered SSH configuration files. Secure hardening requires validation of the effective runtime configuration, not just the main config file.
-
----
 
 ## Architecture
 The architecture diagram and technical explanation for the environment are available here:
