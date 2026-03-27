@@ -15,7 +15,7 @@ The project focuses on identifying misconfigurations, applying security controls
 - Implement logging and monitoring
 - Simulate and detect attacks.
 
-## Day 1 Setup
+## Initial Setup
 - Created Resource Group
 ![Resource Group](./Images/Resource-Group.png)
 
