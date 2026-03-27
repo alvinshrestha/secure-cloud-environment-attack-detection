@@ -42,8 +42,30 @@ The Azure for Students subscription enforces policies that limit which regions r
 - Switched deployment to an allowed region (e.g., Australia Southeast / East US), in this case I used Asia East
 - Standardized all resources within the permitted region
 
+
+---
+
+# 2) Add this to `README.md` under **Challenges & Resolutions**
+
+### Issue: SSH Password Login Remained Enabled After Configuration Change
+During hardening, password-based SSH login remained active even after updating the main SSH configuration file.
+
+### Root Cause
+The main SSH daemon configuration was being overridden by additional configuration files loaded from `/etc/ssh/sshd_config.d/`.
+
+### Resolution
+- Audited the full SSH configuration
+- Identified the override file
+- Updated the effective SSH authentication settings
+- Verified the final applied configuration using SSH diagnostic commands
+
+
 ### Key Learning
-Cloud environments often enforce policy constraints. Understanding and adapting to these restrictions is critical in real-world deployments.
+- Cloud environments often enforce policy constraints. Understanding and adapting to these restrictions is critical in real-world deployments.
+
+- Cloud-hosted Linux systems may use layered SSH configuration files. Secure hardening requires validation of the effective runtime configuration, not just the main config file.
+
+---
 
 ## Architecture
 The architecture diagram and technical explanation for the environment are available here:
@@ -69,8 +91,8 @@ The architecture diagram and technical explanation for the environment are avail
 - [x] Day 1: Azure environment deployment
 - [x] Day 1: Initial security misconfiguration identified
 - [x] Day 1: SSH connectivity verified
-- [ ] Week 2: Linux VM hardening
-- [ ] Week 3: Azure NSG restriction and network hardening
+- [x] Week 2: Linux VM hardening
+- [x] Week 3: Azure NSG restriction and network hardening
 - [ ] Week 4: Identity and Access Management (RBAC)
 - [ ] Week 5: Logging and monitoring with Azure Monitor / Log Analytics
 - [ ] Week 6: Alerting and detection rule creation
