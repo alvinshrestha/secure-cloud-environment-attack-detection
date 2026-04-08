@@ -85,8 +85,8 @@ The architecture diagram and technical explanation for the environment are avail
 - [x] Day 1: SSH connectivity verified
 - [x] Week 2: Linux VM hardening
 - [x] Week 3: Azure NSG restriction and network hardening
-- [ ] Week 4: Identity and Access Management (RBAC)
-- [ ] Week 5: Logging and monitoring with Azure Monitor / Log Analytics
+- [x] Week 4: Identity and Access Management (RBAC)
+- [x] Week 5: Logging and monitoring with Azure Monitor / Log Analytics
 - [ ] Week 6: Alerting and detection rule creation
 - [ ] Week 7: Attack simulation and evidence collection
 - [ ] Week 8: Final documentation and interview demo preparation
