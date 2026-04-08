@@ -73,9 +73,8 @@ The architecture diagram and technical explanation for the environment are avail
 ## Mitigations Applied
 - [Security Hardening](./3.Security/2.hardening-steps.md)
 
-## Detection & Monitoring
-(To be added)
-
+## Monitoring
+- [Monitoring](./4.Monitoring/i.Log-setup.md)
 ## Incident Response
 (To be added)
 
