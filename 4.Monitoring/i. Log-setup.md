@@ -21,7 +21,7 @@ This provides a central platform for:
 - Future alerting and monitoring
 
 ### Evidence
-![Log Analytics Workspace](../Images/log-analytics-workspace.png)
+![Log Analytics Workspace](../Images/Log_Analytics_Workspace.png)
 
 ---
 
