@@ -70,4 +70,6 @@ Cloud monitoring requires both:
 - a properly configured collection pipeline (Data Collection Rules + Linux Syslog)
 
 ### Evidence
-![Linux Syslog Configuration](../Images/linux-syslog-config.png)
+![Linux Syslog Configuration](../Images/Config_syslog.png)
+![Linux Syslog Configuration](../Images/syslog_invalid_user.png)
+![Linux Syslog Configuration](../Images/syslog_login_accepted.png)
