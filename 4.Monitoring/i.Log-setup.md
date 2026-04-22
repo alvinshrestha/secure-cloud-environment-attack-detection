@@ -65,7 +65,7 @@ These facilities are relevant for:
 This enabled the collection of security-relevant Linux logs needed for attack detection and monitoring.
 
 ### Key Learning
-Cloud monitoring requires both:
+> Cloud monitoring requires both:
 - a log storage destination (Log Analytics Workspace)
 - a properly configured collection pipeline (Data Collection Rules + Linux Syslog)
 
