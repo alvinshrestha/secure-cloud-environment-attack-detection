@@ -66,10 +66,27 @@ This enabled the collection of security-relevant Linux logs needed for attack de
 
 ### Key Learning
 > Cloud monitoring requires both:
-- a log storage destination (Log Analytics Workspace)
-- a properly configured collection pipeline (Data Collection Rules + Linux Syslog)
+> - a log storage destination (Log Analytics Workspace)
+> - a properly configured collection pipeline (Data Collection Rules + Linux Syslog)
 
 ### Evidence
 ![Linux Syslog Configuration](../Images/Config_syslog.png)
 ![Linux Syslog Configuration](../Images/syslog_invalid_user.png)
 ![Linux Syslog Configuration](../Images/syslog_login_accepted.png)
+
+## 4. Syslog DCR Conflict Resolution
+
+### Issue Encountered
+The initial attempt to add Linux Syslog to the auto-generated 
+VM Insights DCR (MSVMI-eastasia-vm-security-lab) failed due to 
+a duplicate destination name conflict.
+
+### Resolution
+A dedicated DCR was created for Syslog collection:
+- **Name:** Syslog
+- **Data Source:** Linux Syslog (auth, authpriv, daemon)
+- **Destination:** law-security-lab
+- **Resource:** vm-security-lab
+
+### Evidence
+![Syslog DCR Created](../Images/.png)
