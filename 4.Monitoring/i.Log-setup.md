@@ -74,6 +74,8 @@ This enabled the collection of security-relevant Linux logs needed for attack de
 ![Linux Syslog Configuration](../Images/syslog_invalid_user.png)
 ![Linux Syslog Configuration](../Images/syslog_login_accepted.png)
 
+---
+
 ## 4. Syslog DCR Conflict Resolution
 
 ### Issue Encountered
