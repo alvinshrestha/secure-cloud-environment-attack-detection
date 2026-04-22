@@ -89,4 +89,4 @@ A dedicated DCR was created for Syslog collection:
 - **Resource:** vm-security-lab
 
 ### Evidence
-![Syslog DCR Created](../Images/.png)
+![Syslog DCR Created](../Images/Syslog.png)
