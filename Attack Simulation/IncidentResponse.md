@@ -13,7 +13,6 @@ This document outlines the incident response process for the SSH brute force att
 | Incident Type | SSH Brute Force Attack |
 | Detection Method | Azure Monitor Log Alert |
 | Affected Resource | vm-security-lab |
-| Attacker IP | 203.164.222.82 |
 | Attack Tool | Hydra v9.5 |
 | Total Attempts | 72 credential attempts |
 | Successful Logins | 0 |
