@@ -28,7 +28,6 @@ The objective was not to gain access — it was to generate realistic attack tra
 | Target Port | 22 (SSH) |
 | Attack Tool | Hydra v9.5 |
 | Attack Machine | Windows PC via WSL (Ubuntu) |
-| Attack Source IP | 203.164.222.82 |
 | Simulation Date | April 28, 2026 |
 
 ---
@@ -59,7 +58,7 @@ PasswordAuthentication no   →   PasswordAuthentication yes
 
 Restarted SSH daemon:
 ```bash
-sudo systemctl restart sshd
+sudo systemctl restart ssh
 ```
 
 ### Step 2 — Prepare Attack Wordlists
