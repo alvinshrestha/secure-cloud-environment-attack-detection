@@ -1,4 +1,3 @@
-
 # Secure Cloud Environment with Attack Detection (Azure)
 
 ## Overview
