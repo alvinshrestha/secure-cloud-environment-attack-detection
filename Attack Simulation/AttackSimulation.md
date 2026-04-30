@@ -132,7 +132,7 @@ Hydra finished at 2026-04-28 11:33:04
 **Duration:** ~14 minutes
 
 ### Evidence
-![Hydra Attack Running](../Images/BruteForce_logs.png)
+![Hydra Attack Running](../Images/)
 
 
 ---
@@ -166,7 +166,7 @@ Syslog
 All events correctly captured under the `auth` facility — confirming the KQL facility filter is working as intended.
 
 ### Evidence
-![Logs Showing Brute Force Detected](../Images/logs-brute-force-detected.png)
+![Logs Showing Brute Force Detected](../Images/hydra_bruteforce.png)
 
 ---
 
