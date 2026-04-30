@@ -132,7 +132,7 @@ Hydra finished at 2026-04-28 11:33:04
 **Duration:** ~14 minutes
 
 ### Evidence
-![Hydra Attack Running](../Images/hydra_bruteforce.png)
+![Hydra Attack Running](../Images/BruteForce_logs.png)
 
 
 ---
