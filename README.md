@@ -87,8 +87,8 @@ The architecture diagram and technical explanation for the environment are avail
 - [x] Week 4: Identity and Access Management (RBAC)
 - [x] Week 5: Logging and monitoring with Azure Monitor / Log Analytics
 - [x] Week 6: Alerting and detection rule creation
-- [ ] Week 7: Attack simulation and evidence collection
-- [ ] Week 8: Final documentation and interview demo preparation
+- [x] Week 7: Attack simulation and evidence collection
+- [x] Week 8: Final documentation and interview demo preparation
 
 ## Skills Demonstrated
 
