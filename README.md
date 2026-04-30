@@ -89,7 +89,7 @@ The architecture diagram and technical explanation for the environment are avail
 - [Limitations](./5.Alerting/2.Limitations.md)
 
 ## Attack Simulation
-- [Attack Siulation](./6.AttackSimulation/AttackSimulation.md)
+- [Attack Simulation](./6.AttackSimulation/AttackSimulation.md)
 - [Incident Response](./6.AttackSimulation/IncidentResponse.md)
 
 ---
