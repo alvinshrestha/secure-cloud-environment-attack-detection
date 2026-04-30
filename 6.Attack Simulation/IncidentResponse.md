@@ -205,7 +205,7 @@ Automate containment — when brute force is detected, automatically add a Deny 
 Provides built-in brute force detection, JIT (Just-in-Time) VM access, and security recommendations.
 
 **3. Just-in-Time VM Access**
-Only open SSH port when explicitly requested, for a limited time window, from a specific IP. Eliminates persistent SSH exposure entirely.
+Only open the SSH port when explicitly requested, for a limited time window, from a specific IP. Eliminates persistent SSH exposure.
 
 **4. Rate Limiting via fail2ban**
 Install `fail2ban` on the Linux VM to automatically block IPs after a configurable number of failed attempts at the OS level.
@@ -236,6 +236,6 @@ Already implemented — but document and enforce via Azure Policy.
 
 ## Conclusion
 
-This incident response exercise demonstrated that the security monitoring pipeline built across Weeks 5 and 6 is effective at detecting, alerting, and enabling rapid response to SSH brute force attacks. The existing hardening controls (disabled password authentication, NSG restrictions) prevented any successful compromise, while the monitoring layer provided full visibility into the attack as it occurred.
+This incident response exercise demonstrated that the security monitoring pipeline built during the project is effective at detecting, alerting, and enabling rapid responses to SSH brute-force attacks. The existing hardening controls (disabled password authentication, NSG restrictions) prevented any successful compromise, while the monitoring layer provided full visibility into the attack as it occurred.
 
 > The combination of preventive controls (hardening) and detective controls (monitoring + alerting) is the foundation of a defence-in-depth security posture.
