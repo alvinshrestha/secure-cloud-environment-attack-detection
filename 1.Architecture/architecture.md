@@ -37,3 +37,27 @@ This architecture will be improved in later stages by:
 - Applying host-based hardening
 - Enabling centralized logging and monitoring
 - Configuring attack detection and alerting
+
+---
+
+## Final Hardened Architecture
+
+After completing all security phases, the environment was 
+significantly improved:
+
+### Security Controls Applied
+- SSH restricted to trusted IPs only via NSG rules
+- Password-based SSH authentication disabled
+- Key-based authentication enforced
+- RBAC applied — least privilege access model
+- Linux Syslog collection via dedicated DCR
+- KQL-based detection rule in Azure Monitor
+- Email alerting via Action Group
+
+### Monitoring Pipeline
+Internet → VM → Syslog → DCR → Log Analytics 
+→ KQL Alert Rule → Action Group → Email Notification
+
+### Attack Simulation Outcome
+72 brute force attempts detected and alerted on.
+0 successful logins — hardening controls proven effective.
