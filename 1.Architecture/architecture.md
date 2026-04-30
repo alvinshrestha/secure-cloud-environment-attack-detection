@@ -45,7 +45,7 @@ This architecture will be improved in later stages by:
 After completing all security phases, the environment was 
 significantly improved:
 
-### Security Controls Applied
+### Security Improvements Applied
 - SSH restricted to trusted IPs only via NSG rules
 - Password-based SSH authentication disabled
 - Key-based authentication enforced
