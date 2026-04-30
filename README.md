@@ -7,12 +7,16 @@ The environment was built under Azure subscription constraints, requiring adapta
 
 The project focuses on identifying misconfigurations, applying security controls, implementing logging and alerting, and simulating attack scenarios to validate detection and response mechanisms.
 
+---
+
 ## Objectives
 - Deploy a cloud-based VM
 - Identify security misconfiguration
 - Apply security hardening techniques
 - Implement logging and monitoring
 - Simulate and detect attacks.
+
+---
 
 ## Initial Setup
 - Created Resource Group
@@ -24,10 +28,14 @@ The project focuses on identifying misconfigurations, applying security controls
 - Configured SSH (port 22) to allow public access (0.0.0.0/0) to simulate a common cloud misconfiguration
 ![SSH Missconfiguration](./Images/SSH-Missconfiguration.png)
 
+---
+
 ## Initial Security Issue
 This configuration exposes the VM to potential brute-force attacks and unauthorized access attempts from the public internet.
 - SSH (port 22) is open to 0.0.0.0/0 (public access)
 ![SSH Login](./Images/SSH-Login.png)
+
+---
 
 ## Challenges & Resolutions
 
@@ -53,11 +61,12 @@ The main SSH daemon configuration was being overridden by additional configurati
 - Updated the effective SSH authentication settings
 - Verified the final applied configuration using SSH diagnostic commands
 
-
 ### Key Learning
 - Cloud environments often enforce policy constraints. Understanding and adapting to these restrictions is critical in real-world deployments.
 
 - Cloud-hosted Linux systems may use layered SSH configuration files. Secure hardening requires validation of the effective runtime configuration, not just the main config file.
+
+---
 
 ## Architecture
 The architecture diagram and technical explanation for the environment are available here:
@@ -83,6 +92,8 @@ The architecture diagram and technical explanation for the environment are avail
 - [Attack Siulation](./6.AttackSimulation/AttackSimulation.md)
 - [Incident Response](./6.AttackSimulation/IncidentResponse.md)
 
+---
+
 ## Project Roadmap
 
 - [x] Day 1: Azure environment deployment
@@ -96,16 +107,37 @@ The architecture diagram and technical explanation for the environment are avail
 - [x] Week 7: Attack simulation and evidence collection
 - [x] Week 8: Final documentation and interview demo preparation
 
+---
+
 ## Skills Demonstrated
 
-- Microsoft Azure resource deployment
+### Cloud & Infrastructure
+- Microsoft Azure resource deployment and configuration
 - Virtual machine provisioning and access management
-- Network Security Group (NSG) configuration
-- Cloud misconfiguration identification
-- Linux remote administration via SSH
-- Cloud troubleshooting under subscription policy constraints
+- Azure subscription policy navigation and constraint resolution
+
+### Security Engineering
+- Cloud misconfiguration identification and remediation
+- Network Security Group (NSG) design and hardening
+- SSH hardening — key-based auth, config layering, daemon management
+- Identity and Access Management (RBAC — least privilege)
+- Linux remote administration and security configuration
+
+### Monitoring & Detection
+- Azure Log Analytics workspace configuration
+- Data Collection Rule (DCR) design and troubleshooting
+- KQL (Kusto Query Language) — detection query writing and tuning
+- Azure Monitor alert rule engineering
+- False positive analysis and alert tuning
+- End-to-end monitoring pipeline validation
+
+### Attack Simulation & Response
+- SSH brute force simulation using Hydra
+- MITRE ATT&CK mapping (T1110.001 — Brute Force)
+- Log-based attack detection and evidence collection
+- Structured incident response (NIST SP 800-61 framework)
+
+### Professional Practices
 - Security-focused technical documentation
-- KQL
-- Azure Monitor
-- Attack simulation
-- Incident response 
+- GitHub portfolio development
+- Real-world troubleshooting under cloud constraints
