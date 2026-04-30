@@ -55,8 +55,7 @@ significantly improved:
 - Email alerting via Action Group
 
 ### Monitoring Pipeline
-Internet → VM → Syslog → DCR → Log Analytics 
-→ KQL Alert Rule → Action Group → Email Notification
+![Monitoring_Pipeline](../Images/Architecture_Hardening.png)
 
 ### Attack Simulation Outcome
 72 brute force attempts detected and alerted on.
