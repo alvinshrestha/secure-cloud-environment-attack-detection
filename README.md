@@ -85,7 +85,7 @@ The architecture diagram and technical explanation for the environment are avail
 - [Monitoring Logs](./4.Monitoring/i.Log-setup.md)
 
 ## Alerting 
-- [Alerting Rules](./5.Alerting/1.alert-rules.md)
+- [Alerting Rules](./5.Alerting/1.alert-rule.md)
 - [Limitations](./5.Alerting/2.Limitations.md)
 
 ## Attack Simulation
