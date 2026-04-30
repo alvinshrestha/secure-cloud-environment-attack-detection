@@ -99,3 +99,7 @@ The architecture diagram and technical explanation for the environment are avail
 - Linux remote administration via SSH
 - Cloud troubleshooting under subscription policy constraints
 - Security-focused technical documentation
+- KQL
+- Azure Monitor
+- Attack simulation
+- Incident response 
